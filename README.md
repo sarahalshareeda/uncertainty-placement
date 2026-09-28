@@ -1,6 +1,6 @@
 # Uncertainty Placement under Train-Deployment Asymmetry
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23005837.svg)](https://doi.org/10.5281/zenodo.23005837)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23005836.svg)](https://doi.org/10.5281/zenodo.23005836)
 
 Reference implementation for:
 
