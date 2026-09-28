@@ -1,0 +1,17 @@
+{
+  "title": "Uncertainty placement under train-deployment asymmetry: reference implementation for reliability-aware model-dependent uncertainty placement in probabilistic load forecasting",
+  "upload_type": "software",
+  "description": "<p>Reference implementation for <em>Reliability-Aware Model-Dependent Uncertainty Placement under Data Asymmetry for Probabilistic Load Forecasting</em> (G. Ozdemir and S. Al-Shareeda).</p><p>The code compares a modular placement of uncertainty (post-hoc contextual residual quantiles) with an integrated placement (in-model quantile learning) for seven forecasters from five families: SARIMAX, XGBoost, BiLSTM, BiGRU-LSTM, the Temporal Fusion Transformer, and Chronos-T5-small in zero-tuned and fine-tuned form. Each model is evaluated under a symmetric protocol (training and deployment at 5-minute resolution with all channels) and an asymmetric protocol (deployment on hourly data with temperature and calendar features only) on the same test days. A script reproduces every aggregate number reported in the paper, including the scheduling, reserve and cost mapping.</p><p><strong>Licensing.</strong> Code, notebooks, scripts and results are MIT. The two data files in <code>data/</code> are CSV exports of the 2025 Competition on Electric Energy Consumption Forecast dataset (doi:10.5281/zenodo.16061225) and remain under CC BY 4.0. See LICENSE.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    {"name": "Ozdemir, Gulcihan", "affiliation": "Istanbul Technical University"},
+    {"name": "Al-Shareeda, Sarah", "affiliation": "Universiti Malaya", "orcid": "0000-0001-6337-0453"}
+  ],
+  "keywords": ["probabilistic load forecasting", "uncertainty quantification", "train-deployment asymmetry", "quantile regression", "conformal prediction", "transfer learning", "smart grid", "reserve planning"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.16061225", "relation": "isDerivedFrom", "resource_type": "dataset", "scheme": "doi"},
+    {"identifier": "10.1016/j.epsr.2026.113839", "relation": "references", "resource_type": "publication-article", "scheme": "doi"}
+  ],
+  "language": "eng"
+}

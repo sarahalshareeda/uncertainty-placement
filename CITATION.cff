@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: >-
+  Uncertainty placement under train-deployment asymmetry: reference
+  implementation for reliability-aware model-dependent uncertainty placement
+  in probabilistic load forecasting
+message: If you use this software, please cite it and the accompanying paper.
+type: software
+authors:
+  - family-names: Ozdemir
+    given-names: Gulcihan
+    affiliation: Informatics Institute, Istanbul Technical University
+  - family-names: Al-Shareeda
+    given-names: Sarah
+    affiliation: >-
+      Faculty of Computer Science and Information Technology, Universiti Malaya
+    orcid: "https://orcid.org/0000-0001-6337-0453"
+doi: 10.5281/zenodo.XXXXXXX
+repository-code: https://github.com/sarahalshareeda/uncertainty-placement
+license: MIT
+keywords:
+  - probabilistic load forecasting
+  - uncertainty quantification
+  - train-deployment asymmetry
+  - quantile regression
+  - smart grid
+  - reserve planning
+version: 1.0.0
+date-released: "2026-09-28"

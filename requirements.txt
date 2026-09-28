@@ -1,0 +1,12 @@
+# Tested on Google Colab (Python 3.12). Versions are not pinned; see README.
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+statsmodels          # 01 SARIMAX
+xgboost>=2.0         # 02 XGBoost (reg:quantileerror)
+tensorflow           # 03 BiLSTM, 04 BiGRU-LSTM
+u8darts[torch]       # 05 TFT (includes torch and pytorch-lightning)
+chronos-forecasting  # 06 Chronos, zero-tuned
+autogluon.timeseries # 06 Chronos, fine-tuned (fine_tune=True)

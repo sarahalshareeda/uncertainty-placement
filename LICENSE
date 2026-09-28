@@ -1,0 +1,41 @@
+This repository contains material under two licenses.
+
+1. Code, notebooks, scripts, results tables and documentation
+   ------------------------------------------------------------
+MIT License
+
+Copyright (c) 2026 Gulcihan Ozdemir and Sarah Al-Shareeda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. Data in data/
+   -------------
+data/data_v1.0.csv and data/data_v2.0.csv are taken from:
+
+  L. Gomes, Z. Vale, P. Faria, J. Soares. 2025 Competition on Electric Energy
+  Consumption Forecast Adopting Multi-criteria Performance Metrics (v4.5.1).
+  GECAD, Polytechnic Institute of Porto. Zenodo, 2025.
+  https://doi.org/10.5281/zenodo.16061225
+
+and are licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+
+Changes made: the published files data_v1.0.xlsx and data_v2.0.xlsx were
+exported to CSV. No values were altered. Timestamps are assigned by the
+notebooks (v1.0 starting 2023-12-01, v2.0 starting 2024-12-01).

@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# notebook outputs are regenerated, not shipped
+outputs/*
+!outputs/README.md
+# duplicates from re-downloading
+* (1).*
+*~
