@@ -61,15 +61,16 @@ cost-reliability balance (coverage error 0.154 at 1.67 USD/day).
 2. Run `01` to `06`. Each writes its per-hour forecasts to `outputs/`. A GPU is
    needed for `06` (fine-tuning takes about 34 min for the symmetric protocol
    and 21 min for the asymmetric one on a T4) and recommended for `03` to `05`.
-3. Run `07_evaluation_and_figures.ipynb` for Tables 3 and 4 and Figures 3 and 4.
+3. Run `07_evaluation_and_figures.ipynb`. Its seven numbered cells rebuild Tables 3-5 and
+   Figures 3-5 of the paper into `outputs/tables/` and `outputs/figures/`, and the last
+   cell checks every aggregate number quoted in the text.
 4. Run `python scripts/paper_numbers.py` from the repository root. It rebuilds
    Table 4 (`results/delta_results_table.csv`) and Table 5
    (`results/cost_table.csv`), and checks all 25 aggregate numbers quoted in the
    paper (averages, percentages, costs) against the main-results tables. It
    runs on the committed `results/` in a second and needs only pandas.
-5. `python scripts/dispersion_boxplots.py` draws the boxplot figure (Figure 5)
-   from `outputs/`, and `python scripts/count_tft_params.py` reproduces the TFT
-   parameter counts in Table 2.
+5. `python scripts/count_tft_params.py` reproduces the TFT parameter counts in
+   Table 2.
 
 The deep models are trained with a fixed seed (42), but GPU training is not
 bit-for-bit deterministic, so a rerun can differ from the committed
@@ -79,8 +80,8 @@ bit-for-bit deterministic, so a rerun can differ from the committed
 
 ```
 data/        the two competition files used (CC BY 4.0, see data/README.md)
-notebooks/   01-06 model runs, 07 evaluation, tables and figures
-scripts/     paper_numbers.py, dispersion_boxplots.py, count_tft_params.py
+notebooks/   01-06 model runs; 07 all tables and figures of the results section
+scripts/     paper_numbers.py, count_tft_params.py
 results/     the tables behind the paper (main results, delta, cost, dispersion)
 outputs/     created by the notebooks (per-hour forecasts); not tracked
 ```

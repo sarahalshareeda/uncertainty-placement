@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-RES = os.path.join(HERE, "..", "results")
+RES = os.environ.get("SEGAN_RESULTS", os.path.join(HERE, "..", "results"))
 ORDER = ["SARIMAX", "XGBoost", "BiLSTM", "BiGRU-LSTM", "TFT", "LLM (ZT)", "LLM (FT)"]
 C_ENERGY = 0.12   # USD/kWh, commercial tariff in Turkey (EPDK)
 HOURS = 24
